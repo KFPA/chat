@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Controls">
+      <UniqueIdentifier>{c10282b7-72eb-4453-9fbe-9080ba9b7c16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commonclass">
+      <UniqueIdentifier>{3275862c-5294-4792-a2ee-2873d6940b51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Xml">
+      <UniqueIdentifier>{b1710f25-9164-4369-b6fd-02e20d9cf477}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LLClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LLClientDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Controls\ImgButton.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Controls\StaticText.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\commonclass\BufferMemDC.h">
+      <Filter>Commonclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\commonclass\CDPI.h">
+      <Filter>Commonclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\commonclass\GDIPlusH.h">
+      <Filter>Commonclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\commonclass\GraphicsUtils.h">
+      <Filter>Commonclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Controls\GlassButton.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Markup.h">
+      <Filter>Xml</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLOperate.h">
+      <Filter>Xml</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Commonclass</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Commonclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Controls\NcControls.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\commonclass\GUI_Utils.h">
+      <Filter>Commonclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Controls\Base_Dlg.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Controls\ImgGlassButton.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LLClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LLClientDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Controls\ImgButton.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Controls\StaticText.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\commonclass\GraphicsUtils.cpp">
+      <Filter>Commonclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Controls\GlassButton.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Markup.cpp">
+      <Filter>Xml</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLOperate.cpp">
+      <Filter>Xml</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Commonclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Controls\NcControls.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\commonclass\GUI_Utils.cpp">
+      <Filter>Commonclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Controls\Base_Dlg.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Controls\ImgGlassButton.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LLClient.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\LLClient.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\LLClient.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\hmylogo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\exit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\setting.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ip.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\lock.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\user.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\port.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
